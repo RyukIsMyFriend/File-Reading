@@ -19,7 +19,7 @@ def main():
     phone_number = prompt_user("Enter your phone number: ")
 
     write_to_file(file_name, name, address, phone_number)
-    print("\nData written to file.")
+    print("\nThe specified data has been written to the file successfully.")
 
     print("\nDisplaying file contents:")
     data = read_file(file_name)
